@@ -41,7 +41,6 @@ public class Livro {
         return autor;
     }
 
-
     public void exibirDetalhes(){
         if (disponibilidade == true){
             System.out.print("O livro que tem como título: "+titulo+", id : "+id+" e autor: "+autor+ "está disponível. ");
