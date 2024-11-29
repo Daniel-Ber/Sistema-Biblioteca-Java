@@ -1,4 +1,4 @@
-public class Livro {
+public class Livro    {
 
     //Atributos da classe
     private int id;
@@ -6,7 +6,8 @@ public class Livro {
     private String titulo ;
     private boolean disponibilidade;
 
-    //Construtor do Objeto Livro
+    //Construtores do Objeto Livro
+    Livro(){}
     Livro(int id , String autor , String titulo , boolean disponibilidade)
     {
             this.autor = autor;
@@ -42,11 +43,11 @@ public class Livro {
     }
 
     public void exibirDetalhes(){
-        if (disponibilidade == true){
-            System.out.print("O livro que tem como título: "+titulo+", id : "+id+" e autor: "+autor+ "está disponível. ");
+        if (disponibilidade == true) {
+            System.out.print("O livro que tem como título: "+titulo+", id : "+id+" e autor: "+autor+ " está disponível. ");
         }else
             if (disponibilidade == false){
-            System.out.print("O livro que tem como título: "+titulo+", id : "+id+"e autor: "+autor+ "está indisponível. ");
+            System.out.print("O livro que tem como título: "+titulo+", id : "+id+"e autor: "+autor+ " está indisponível. ");
         }
     }
 
