@@ -8,5 +8,3 @@ Feito com o objetivo de aprimorar minhas habilidades com Java.
 Promovido pelo [Shaulin](https://youtube.com/@shaulinsmb?si=zC-k2PJXkCNmjYLu) em sua comunidade do discord
 
 ## Funcionalidades Planejadas
--[] Func1
--[] Func2 
